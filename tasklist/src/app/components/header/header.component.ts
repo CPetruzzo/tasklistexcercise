@@ -11,7 +11,7 @@ import { Router } from '@angular/router'; //para saber sobre que ruta estamos
 export class HeaderComponent implements OnInit {
 
   title: string = 'Mi Lista de tareas';
-  showAddTask: boolean = true;
+  showAddTask: boolean = false;
   subscription?: Subscription;
 
   constructor(

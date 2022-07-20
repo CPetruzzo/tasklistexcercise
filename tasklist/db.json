@@ -1,16 +1,3 @@
 {
-  "tasks": [
-    {
-      "title": "Coordinador de Bromatologia",
-      "day": "2022",
-      "reminder": true,
-      "id": 1
-    },
-    {
-      "title": "Docente en Uader",
-      "day": "2022",
-      "reminder": true,
-      "id": 2
-    }
-  ]
+  "tasks": []
 }
