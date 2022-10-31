@@ -38,7 +38,8 @@ const appRoutes: Routes = [
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot(appRoutes,  // quedan inicializadas las rutas
-       {enableTracing:true}) // esto es para el historial de navegacion
+       {enableTracing:true}), // esto es para el historial de navegacion
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
