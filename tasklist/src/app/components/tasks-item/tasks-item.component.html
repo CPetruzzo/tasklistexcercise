@@ -6,10 +6,14 @@
         <fa-icon 
             [icon]="faTimes"
             [ngStyle]="{'color': 'red'}"
-            (click)="onDelete(task)"></fa-icon>
+            (click)="onDelete(task)"></fa-icon> 
+
     </h3>
     <p class="task formato">
         {{task.day}}
     </p>
     
 </div>
+
+            <!-- o sea es como que en este componente cuando clickeo disparo 
+                el onDelete(task) que es un eventemitter, la explicación sigue en el task-item.component.ts  -->

@@ -37,3 +37,6 @@ export class TasksComponent implements OnInit {
 }
 
 //la logica se maneja en el componente
+// aca lo que se da como orden se suscribe en el servicio, es decir, 
+// aca llamamos al servicio y le damos la orden de que nos suscriba a la funcion getTasks, deleteTask, addTask, toggleReminder
+// SIGUE EN EL ARCHIVO task.service.ts

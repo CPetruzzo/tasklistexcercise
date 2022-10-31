@@ -28,3 +28,8 @@ export class TasksItemComponent implements OnInit {
     this.onToggleReminder.emit(task);
   }
 }
+
+// CONTINUACION DEL TASK-ITEM.COMPONENT.HTML
+// lo mismo que pasa con el onDelete pasa con el onToggle, 
+// emiten un evento y le avisan a el componente padre para que el vea que le toca hacer.
+// Sigue en el task.component.html

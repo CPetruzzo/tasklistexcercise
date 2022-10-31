@@ -35,4 +35,5 @@ export class TaskService {
 
 }
 
+//habiendo escuchado al controlador (el archivo ts) del task.component.ts entonces recibe la informacion y analiza que metodo usar
 // el servicio actualiza el estado de la tarea en la base de datos, la logica se maneja en el componente
